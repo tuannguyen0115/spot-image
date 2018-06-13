@@ -8,4 +8,6 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.use(express.static(path.join(__dirname, 'dist')))
 
+
+
 app.listen(port, () => console.log(`express server listening on port ${port}`))
